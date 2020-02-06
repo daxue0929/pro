@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="first-ek-server" />
+        <module name="first-ek-service-invoker" />
+        <module name="first-ek-service-provider" />
+        <module name="pro" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="first-ek-server" options="-parameters" />
+      <module name="first-ek-service-invoker" options="-parameters" />
+      <module name="first-ek-service-provider" options="-parameters" />
+    </option>
+  </component>
+</project>
